@@ -22,13 +22,13 @@ There are 3 java projects within this initaiative:</p>
 <p>This project contains a simple design architecture for kick starting selenium webdriver automation for any products. It also contains a set of general utilities which can be very helpful under different circumstances. 
 Here is an overview on those general utilities:
 <ul>
-  <li>DbCommonMethods: One general method which can be utilized to connect to a DB and perform specific queries like Create,Update, Delete and so on...</li>
-  <li>HttpClientUtil: Utils to assist for API Automation. To extract Json API content using java. Which could assist in comparing the same with GUI data</li>
-  <li>MobileCommonMethods</li>
-  <li>SelectBrowser: Single file which controls the browser in which hundreds of test scripts will be executed by taking browser input from config.properties file</li>
-  <li>ReportParseGoogleUpdate: Update multiple test suites results on google doc automatically as real-time process. We can see a pie-chart for the collaborated results of entire product instead of single test suites</li>
-  <li>EmailNotification: Invoke this file if we wish to send an email once each test suites are executed</li>
-  <li>WebCommonMethods: Contains following general methods:</li>
+  <li><b>DbCommonMethods:</b> One general method which can be utilized to connect to a DB and perform specific queries like Create,Update, Delete and so on...</li>
+  <li><b>HttpClientUtil:</b> Utils to assist for API Automation. To extract Json API content using java. Which could assist in comparing the same with GUI data</li>
+  <li><b>MobileCommonMethods</b></li>
+  <li><b>SelectBrowser:</b> Single file which controls the browser in which hundreds of test scripts will be executed by taking browser input from config.properties file</li>
+  <li><b>ReportParseGoogleUpdate:</b> Update multiple test suites results on google doc automatically as real-time process. We can see a pie-chart for the collaborated results of entire product instead of single test suites</li>
+  <li><b>EmailNotification:</b> Invoke this file if we wish to send an email once each test suites are executed</li>
+  <li><b>WebCommonMethods:</b> Contains following general methods:</li>
   <ul>
     <li>windowMax()</li>
     <li>deletecookies()</li>
